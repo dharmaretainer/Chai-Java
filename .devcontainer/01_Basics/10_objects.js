@@ -49,4 +49,26 @@ console.log(Object.entries(tinderUser))
 console.log(tinderUser.hasOwnProperty("isLoggedIn"))
 
 
+const course={
+    coursename:"js in hindi",
+    price:"999",
+    courseInstructor:"Aryan"
+}
+console.log(course.courseInstructor)
+//another syntax 
+const {courseInstructor}=course
+console.log(courseInstructor)
+//another syntax , can give any name
+//destructure 
+const {courseInstructor:Instructor}=course
+console.log(Instructor)
+//react perspective
+// const navbar=({company})=>{
 
+// }
+// navbar(company="Karewar")
+// {
+//     "name":"Aryan",
+//     "coursename":"js in hindi",
+//     "price":"free"
+// }
