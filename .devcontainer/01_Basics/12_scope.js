@@ -13,3 +13,36 @@ if(true){
 console.log("OUTER:",a)
 // console.log(b)
 // console.log(c)
+
+function one(){
+    const username="Aryan"
+    function two(){
+        const website="youtube"
+        console.log(username)
+    }
+    // console.log(website)
+    two()
+}
+one()
+if(true){
+    const username="Aryan"
+    if(username==="Aryan"){
+        const website="youtube"
+        console.log(username+" "+website)
+    }
+    // console.log(website)
+}
+// console.log(username)
+
+//+++++++++++++++INTERESTING++++++++++++++++++++//
+
+
+function addone(num){//function
+    return num +1
+}
+console.log(addone(5))
+
+const addTwo =function(num){//function or expression
+    return num+2
+}
+addTwo(5)
