@@ -42,7 +42,7 @@ function addone(num){//function
 }
 console.log(addone(5))
 
-const addTwo =function(num){//function or expression
+const addTwo =function(num){//function or expression//vegli method to declare function
     return num+2
 }
 addTwo(5)
